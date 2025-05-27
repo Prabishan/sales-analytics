@@ -11,7 +11,7 @@ Base.metadata.create_all(bind=engine)
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World 0.2"}
+    return {"Hello": "World 0.3"}
 
 
 @app.get("/items/{item_id}")
